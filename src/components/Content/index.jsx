@@ -24,7 +24,6 @@ export default function Content() {
           </div>
         </div>
  
- 
         <div>
           <div className="buttons">
             <Button setInputField={setInputField} inputField={inputField}>7</Button>
@@ -43,7 +42,6 @@ export default function Content() {
           </div>
         </div>
  
- 
         <div >
           <div className="buttons">
             <Button setInputField={setInputField} inputField={inputField}>1</Button>
@@ -52,7 +50,6 @@ export default function Content() {
             <Button setInputField={setInputField} inputField={inputField} red="true">/</Button>
           </div>
         </div>
- 
  
         <div >
           <div className="buttons">
@@ -63,9 +60,7 @@ export default function Content() {
           </div>
  
       </div>
-
       </div>     
-
     </div>
     </>
   );
