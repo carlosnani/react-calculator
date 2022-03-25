@@ -2,7 +2,7 @@ import "./style.css";
 
 export default function Button({
   children,
-  danger,
+  red,
   setInputField,
   inputField,
 }) {
@@ -19,7 +19,7 @@ export default function Button({
   }
   return (
     <div
-      className={"btn btn-primary" + (danger ? " btn-danger" : "")}
+      className={"btn btn-calc" + (red ? " btn-red" : "")}
       onClick={() => handleClickClear(children)}
     >
       {children}

@@ -1,21 +1,103 @@
- 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: rgb(27, 27, 27);
+}
+
+.title-box {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin: 60px 0;
+    color: #fff;
+}
+
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+    margin: 10px 0;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .display {
+    margin: 0 auto;
+    width: 600px;    
     display: grid;
     grid-template-columns: 3.2fr 1fr;
     grid-gap: 10px;
 }
 
 .base {
-    background-image: linear-gradient(to top, #a1a9be, #d7dde8); 
+    background-image: linear-gradient(to top, #242530, #242530); 
     border-radius: 8px;
     padding: 10px 10px 60px 10px;
-    margin-top: 20px;
+    width: 650px;
+    margin: 0 auto;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 6px 8px; 
 }
+
+.base input {
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: rgb(241, 241, 241);
+}
+ 
+.btn-red {
+      background-color: initial;
+      background-image: linear-gradient(-180deg, #FF7E31, #E62C03) !important;      
+      display: inline-block;       
+      line-height: 20px;
+      outline: 0;
+      overflow: hidden;      
+      pointer-events: auto;
+      touch-action: manipulation;
+      user-select: none;
+      -webkit-user-select: none;
+      box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;          
+      transition: box-shadow .2s;     
+}
+
+.btn-red:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px !important;
+  }
+
+.btn-calc {
+    background-color: #09bb94;
+    background-image: linear-gradient(-180deg, #09bb94, #11886e); 
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-align: center;    
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+}
+
+.btn-calc:hover {
+    box-shadow: rgba(17, 136, 110, 0.5)  0 3px 8px;;
+  }
+
 
  
