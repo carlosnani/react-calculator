@@ -4,9 +4,11 @@
 
 Esse é um app de calculadora feito com React.
 Criei um componente de botão e reutilizei, com as propriedades, para modica-lo de acordo com o contexto em que foi aplicado.  
+Você pode acessar o projeto [aqui](https://react-calculation.netlify.app/)
 
 This is a calculator app made with React.
 I created a button component and reused it, with the properties, to modify it according to the context in which it was applied.
+You can acess the project [here](https://react-calculation.netlify.app/)
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
